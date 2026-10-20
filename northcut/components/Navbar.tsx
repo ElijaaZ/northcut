@@ -7,9 +7,12 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="absolute top-0 left-0 z-50 w-full border-b border-white/10 bg-black/75 backdrop-blur-xl lg:bg-black/30 lg:backdrop-blur-sm">
-      <nav className="mx-auto flex h-20 w-full max-w-[1050px] items-center justify-between px-4 lg:px-6">
-        <Link href="/" className="text-2xl font-bold text-[#f4efe5]">
+    <header className="fixed top-0 left-0 z-50 w-full border-b border-white/10 bg-black/75 backdrop-blur-xl lg:bg-black/30 lg:backdrop-blur-sm">
+      <nav className="mx-auto flex h-16 w-full max-w-[1050px] items-center justify-between px-4 lg:px-6">
+        <Link
+          href="/"
+          className="font-[family-name:var(--font-archivo)] text-2xl font-bold text-[#f4efe5]"
+        >
           NORTHCUT.
         </Link>
 
@@ -22,6 +25,9 @@ export default function Navbar() {
           </li>
           <li>
             <Link href="#galleri">Galleri</Link>
+          </li>
+          <li>
+            <Link href="#oppettider">Öppettider</Link>
           </li>
           <li>
             <Link href="#kontakt">Kontakt</Link>
