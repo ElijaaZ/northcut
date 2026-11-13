@@ -46,7 +46,7 @@ export default function Services() {
         </p>
 
         <h2 className="font-[family-name:var(--font-archivo)] text-5xl text-[#f4efe5]">
-          VÅR MENY
+          VÅRA TJÄNSTER
         </h2>
 
         <p className="mt-4 text-[#c4bdb5]">
